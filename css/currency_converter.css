@@ -29,7 +29,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
     box-shadow: 1px 1px 9px 8px #fff;
     animation-name: shadowbox;
     animation-duration: 5s;
@@ -52,6 +51,7 @@ body {
         box-shadow: 1px 1px 9px 8px #fff;
         font-weight: bold;
         font-family: cursive;
+        margin-bottom: 40px;
 }
 .all_currency option {
     font-weight: bold;
@@ -68,6 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .input-currency input{
